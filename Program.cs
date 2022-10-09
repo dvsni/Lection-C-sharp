@@ -37,7 +37,7 @@ string Method4(int count, string text)
 {
     int i = 0;
     string result = String.Empty;
-    while (i < count)
+    while(i < count)
     {
         result = result + text;
         i++;
@@ -45,4 +45,17 @@ string Method4(int count, string text)
     return result;
 }
 string res = Method4(10, "asdf");
+Console.WriteLine(res);
+
+//Вид 5 с for
+string Method5(int count, string text)
+{
+    string result = String.Empty;
+    for (int i = 0; i < count; i++)
+    {
+        result = result + text;
+    }
+    return result;
+}
+string result = Method5(10, "asdf");
 Console.WriteLine(res);
