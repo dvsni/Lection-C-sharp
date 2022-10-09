@@ -59,3 +59,13 @@ string Method5(int count, string text)
 }
 string result = Method5(10, "asdf");
 Console.WriteLine(res);
+
+//Пример:
+for (int i = 2; i <= 10; i++)
+{
+    for (int j = 2; i <= 10; i++)
+    {
+        Console.WriteLine($"{i} * {j} = {i*j}");
+    }
+    Console.WriteLine();
+}
